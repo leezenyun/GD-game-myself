@@ -14149,7 +14149,7 @@
           "persistentUuid": "37f6da0c-19ba-4cd2-b7d8-1f1404b6a2f4",
           "width": 0,
           "x": 150,
-          "y": 80,
+          "y": 180,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -14182,7 +14182,7 @@
           "persistentUuid": "c31e27c0-2a7b-453b-bf69-6b4b56c8a9af",
           "width": 0,
           "x": 150,
-          "y": 240,
+          "y": 340,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -14198,8 +14198,24 @@
           "persistentUuid": "7d5609a3-c13c-4543-9bf6-c6951b6cc610",
           "width": 0,
           "x": 150,
-          "y": 400,
+          "y": 500,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "lv4",
+          "persistentUuid": "c6475839-329a-401e-9e61-4274c40f14c2",
+          "width": 0,
+          "x": 146,
+          "y": 48,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -14475,6 +14491,48 @@
             "characterSize": 100,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "lv4",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "通關時間",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 100,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "通關時間",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 100,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -14491,6 +14549,9 @@
           },
           {
             "objectName": "lv3"
+          },
+          {
+            "objectName": "lv4"
           },
           {
             "objectName": "YellowButton"
